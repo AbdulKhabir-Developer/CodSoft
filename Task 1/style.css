@@ -1,0 +1,254 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat-Bold";
+}
+
+.container-fluid {
+    padding: 3% 12% 7%;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Headings */
+.main-heading {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+
+.about-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.cta-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Sections */
+.colored-section {
+    background-color: #F5F5F5;
+    color: black;
+}
+
+.floralwhite-section {
+    background-color: #ECEFF1;
+}
+
+.white-section {
+    background-color: #fff;
+    border-top: 1px solid gray;
+}
+
+/* Navbar */
+
+.logo{
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+    font-style: italic;
+    text-decoration:none;
+}
+
+.logo span {
+    color: black;
+    font-size: 20px;
+}
+
+.navbar {
+    padding: 0 0 2rem;
+}
+
+.nav-item {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: light;
+    color: #000;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: brown;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+/* Title */
+#title {
+    text-align: left;
+}
+
+.title-image {
+    width: 30%;
+    position: absolute;
+    right: 12%;
+    margin-top: 60px;
+    margin-bottom: 10px;
+
+}
+
+@media (max-width: 1220px) {
+    .title-image {
+        width: 50%;
+        position: static;
+        padding-top: 1.5%
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1550px) {
+
+    #title {
+        text-align: center;
+    }
+}
+
+/* Features */
+#features {
+    padding: 7% 15%;
+    position: relative;
+}
+
+.feature-text {
+    font-size: 2rem;
+}
+
+.feature-box {
+    padding: 5%;
+    line-height: 1.5rem;
+}
+
+.fas {
+    color: #5dd9ff;
+    margin-bottom: 1rem;
+}
+
+.fas:hover {
+    color: #2481eb;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    margin: 20px;
+    border-radius: 100%;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.carousel-icon-style {
+    background-color: #000;
+    border-radius: 50%;
+}
+
+/* Press */
+.press {
+    background-color: white;
+    border-radius: 50px;
+}
+
+.press-logo {
+    width: 20%;
+    height: 450px;
+    margin: 10px 10px;
+    border-radius: 20%;
+
+}
+
+/* Pricing */
+.card-title {
+    padding-bottom: 5%;
+    font-size: 2rem;
+}
+
+.card-title:hover {
+    font-weight: bold;
+}
+
+.lead {
+    padding: 1% 7%;
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+.lead:hover {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+/* About */
+.card-header {
+    background-color: rgb(146, 142, 129);
+}
+
+#about .card-body {
+    text-align: start;
+    font-size: 0.99rem;
+}
+
+/*Resume*/
+.download-btn {
+    background-color:rgb(146, 142, 129);
+    color: #fff;
+}
+
+#resume .btn:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
+    font-size: 18px;
+}
+
+/* Footer */
+#footer {
+    padding: 1%;
+}
+
+.social-icon {
+    padding: 1%;
+    color: black;
+}
+#linkedin{
+    color: rgb(5, 5, 119);
+}
+#instagram{
+    color: rgb(145, 31, 31);
+}
