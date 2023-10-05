@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+   
+
+}
+
+nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.logo span{
+    color: red;
+    font-size: 30px;
+    font-style: italic;
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 0px 20px;
+    margin: 0px 5px;
+}
+.menu a:last-child{
+    background: gray;
+    border-radius: 5px;
+    color: white;
+}
+.menu a:hover{
+    background: rgb(151, 41, 1);
+    border-radius: 5px;
+    transition: 0.4s linear;
+}
+
+.line{
+    position: absolute;
+    top: 22%;
+    left: 8%;
+}
+
+.box1{
+    width: 10px;
+    height: 10px;
+    background: black;
+}
+
+.box2{
+    width: 60px;
+    height: 2px;
+    background: black;
+}
+
+.box3{
+    width: 100px;
+    height: 2px;
+    background: black;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.left{
+    flex-basis: 40%;
+}
+.right{
+    flex-basis: 50%;
+}
+.right img{
+    width: 100%;
+    -webkit-box-reflect:below 0px linear-gradient(transparent, transparent, #0004);
+    
+}
+
+.left h1{
+    padding-top: 50px;
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+}
+.left h1 span{
+    color: red;
+}
+.left button{
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+/* icons styling */
+
+.icons{
+    padding-left: 120px; 
+}
+
+.fa-brands{
+    width: 50px;
+    height: 30px;  
+}
+
+#a1{
+    color: blue;
+    font-size:xx-large;
+}
+#a2{
+    color: rgb(105, 15, 15);
+    font-size:xx-large;
+}
+#a3{
+    color:#0072b1;
+    font-size:xx-large;
+}
+#a4{
+    color: #00acee;
+    font-size:xx-large;
+}
+#a5{
+    color: #CD201F;
+    font-size:xx-large;
+}
+
+
+.floralwhite-section {
+    background-color: white;
+    margin-top: 200px;
+}
+
+.white-section {
+    background-color: white;
+    border-top: 1px solid gray;
+}
+
+
+/* samples */
+
+.samples-image {
+    width: 10%;
+    margin: 20px;
+    border-radius: 100%;
+}
+
+.samples-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.carousel-icon-style {
+    background-color: #000;
+    border-radius: 50%;
+}
+
+/* samples pics */
+#press {
+     margin-top: 500px;
+}
+
+.press-logo {
+    width: 30%;
+    margin: 20px 18px;
+    border-radius: 10%;
+}
+
+/* Form styling */
+.form { 
+    margin-top: 30px; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+    height: 100vh; 
+    color: black; 
+   padding: 20px 80px; 
+  } 
+
+  .form .heading { 
+    color: black; 
+    font-style: italic;
+  } 
+  .form .signin { 
+    line-height: 30px; 
+  } 
+  .form .signin h2 { 
+    margin-bottom: 30px; 
+    font-style: italic;
+  } 
+  
+  .form .buttons { 
+    display: flex; 
+    flex-direction: column; 
+ 
+  } 
+  .form button { 
+    width: 300px; 
+    border-radius: 30px;
+    color: black; 
+    font-weight: bold; 
+    margin-bottom: 15px;
+  } 
+
+  .form input { 
+    width: 230px; 
+    padding: 4px; 
+    font-size: 15px; 
+    border-radius: 5px;
+  }
+
+  .form select { 
+    padding: 9px; 
+    font-size: 15px; 
+    border-radius: 5px;
+  } 
+   
+  .form .input { 
+    margin-bottom: 12px; 
+  } 
+ 
+  
+  /* footer styling */
+
+.footer { 
+    margin-top: 40px; 
+    display: flex; 
+    flex: 1;
+    grid-template-columns: repeat(4, 24%); 
+    justify-content: space-between; 
+    gap: 10px; 
+    padding: 20px 100px; 
+    background-color: rgb(0, 0, 0); 
+    line-height: 35px; 
+    color: white; 
+  } 
+  .footer h4 { 
+    font-size: 15px; 
+    font-weight: 600; 
+    letter-spacing: 1px; 
+    color: rgb(255, 255, 255); 
+    font-style: italic;
+  } 
+  .footer ul li:hover { 
+    color: wheat; 
+  } 
+
+   
+  .copyright { 
+    background-color: #000;
+    font-size: 14px; 
+    color: rgb(136, 136, 136); 
+    margin-top: 30px;
+  }
+  
+  
